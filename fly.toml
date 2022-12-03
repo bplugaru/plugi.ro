@@ -6,7 +6,7 @@ kill_timeout = 5
 processes = []
 
 [env]
-
+  EDIN_API="https://edin-api.fly.dev/api"
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
